@@ -1,0 +1,1 @@
+from ImageClassification.components.data_ingestion import DataIngestion
