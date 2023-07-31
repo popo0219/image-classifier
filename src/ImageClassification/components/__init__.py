@@ -1,1 +1,2 @@
 from ImageClassification.components.data_ingestion import DataIngestion
+from ImageClassification.components.prepare_base_model import PrepareBaseModel
