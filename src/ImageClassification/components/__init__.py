@@ -1,3 +1,4 @@
 from ImageClassification.components.data_ingestion import DataIngestion
 from ImageClassification.components.prepare_base_model import PrepareBaseModel
-from ImagImageClassification.components.prepare_callback import PrepareCallback
+from ImageClassification.components.prepare_callback import PrepareCallback
+from ImageClassification.components.training import Training
