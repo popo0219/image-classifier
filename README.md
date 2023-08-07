@@ -73,14 +73,14 @@ The pipeline follows the following sequence of steps:
 4. **Model Training:** Train the CNN model using the preprocessed images and tune hyperparameters.
 5. **Model Validation:** Validate the model's performance on a separate validation dataset.
 6. **Model Evaluation:** Evaluate the model's accuracy and metrics on a test dataset.
-7. **Model Deployment:** Deploy the trained model within a Docker container for web access.
+7. **Docker Container:** Deploy the trained model within a Docker container for web access.
 8. **User Interface:** Develop a user-friendly interface for users to upload images for classification.
 9. **Prediction:** The user-uploaded images are passed through the deployed model for classification.
 10. **CI/CD Pipeline:** The trained model and application will be deployed on AWS using Docker for containerization:
 
 - Docker Containers: The model, frontend, and backend components will be encapsulated within Docker containers for consistency and portability.
-- Amazon ECS (Elastic Container Service): Containers will be deployed on ECS, a scalable container orchestration - service that manages containerized applications.
-- AWS Fargate: Fargate will be used as the compute engine for ECS, abstracting the underlying infrastructure management.
+- Amazon ECS (Elastic Compute Cloud): Containers will be deployed on EC2, a scalable container orchestration - service that manages containerized applications.
+- AWS Fargate: Fargate will be used as the compute engine for EC2, abstracting the underlying infrastructure management.
 
 ## 8. Conclusion
 The Cat vs Dog Image Classification model demonstrates the successful implementation of a Convolutional Neural Network for image classification tasks. By accurately distinguishing between images of cats and dogs, this project showcases the potential of deep learning algorithms in solving real-world problems involving image analysis. Through this project, we aim to inspire further exploration of CNNs and their applications in various domains, while emphasizing the deployment and monitoring aspects using AWS and Docker for reliable and scalable solutions.
