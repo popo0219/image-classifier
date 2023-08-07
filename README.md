@@ -42,7 +42,7 @@ The challenge is to create a machine learning model that can accurately classify
 
 ### 5.2. Data
 The dataset consists of thousands of labeled images of cats and dogs. These images will serve as the basis for training, validation, and testing the CNN model. The images are preprocessed to normalize pixel values and resized to a consistent input size.
-- Dataset:- [Cat vs Dog dataset](https://www.kaggle.com/competitions/dogs-vs-cats/data)
+Dataset:[Cat vs Dog dataset](https://www.kaggle.com/competitions/dogs-vs-cats/data)
 
 ### 5.3. Techniques
 - **Data Preprocessing:** Normalize pixel values, resize images, and apply data augmentation techniques to enhance model generalization.
@@ -62,9 +62,7 @@ The architecture of the Cat vs Dog Image Classification model consists of the fo
 - **Output Layer:** Provides the final prediction probabilities for cat and dog classes.
 
 ## 7. Pipeline
-
-![pipe (2)](https://github.com/saibattula93/Image-Classification/assets/116423301/cc98a102-7f0a-40cb-8c22-0f5c86a2792e)
-
+### Project Pipeline
 The MLOps (Machine Learning Operations) pipeline project is designed to create an end-to-end workflow for developing and deploying a web application that performs data preprocessing, model training, model evaluation, and prediction. The pipeline leverages Docker containers for encapsulating code, artifacts, and both the frontend and backend components of the application. The application is deployed on a amazon web service(AWS) to provide EC2 will be used.
 
 The pipeline follows the following sequence of steps:
