@@ -62,7 +62,7 @@ The architecture of the Cat vs Dog Image Classification model consists of the fo
 - **Output Layer:** Provides the final prediction probabilities for cat and dog classes.
 
 ## 7. Pipeline
-https://github.com/saibattula93/Image-Classification/blob/main/research/Pipeline.jpg
+(https://github.com/saibattula93/Image-Classification/blob/main/research/Pipeline.jpg)
 
 The MLOps (Machine Learning Operations) pipeline project is designed to create an end-to-end workflow for developing and deploying a web application that performs data preprocessing, model training, model evaluation, and prediction. The pipeline leverages Docker containers for encapsulating code, artifacts, and both the frontend and backend components of the application. The application is deployed on a amazon web service(AWS) to provide EC2 will be used.
 
