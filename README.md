@@ -42,7 +42,7 @@ The challenge is to create a machine learning model that can accurately classify
 
 ### 5.2. Data
 The dataset consists of thousands of labeled images of cats and dogs. These images will serve as the basis for training, validation, and testing the CNN model. The images are preprocessed to normalize pixel values and resized to a consistent input size.
-Dataset:(Cat vs Dog dataset)[https://www.kaggle.com/competitions/dogs-vs-cats/data]
+Dataset:[Cat vs Dog dataset](https://www.kaggle.com/competitions/dogs-vs-cats/data)
 
 ### 5.3. Techniques
 - **Data Preprocessing:** Normalize pixel values, resize images, and apply data augmentation techniques to enhance model generalization.
