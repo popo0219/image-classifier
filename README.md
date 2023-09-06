@@ -86,6 +86,5 @@ The pipeline follows the following sequence of steps:
 ## 8. Conclusion
 The Cat vs Dog Image Classification model demonstrates the successful implementation of a Convolutional Neural Network for image classification tasks. By accurately distinguishing between images of cats and dogs, this project showcases the potential of deep learning algorithms in solving real-world problems involving image analysis. Through this project, we aim to inspire further exploration of CNNs and their applications in various domains, while emphasizing the deployment and monitoring aspects using AWS and Docker for reliable and scalable solutions.
 
-
 ## Demo Video 
 https://github.com/saibattula93/Image-Classification/assets/116423301/154fa4a6-918e-45d8-9efd-72894bd62ecd
